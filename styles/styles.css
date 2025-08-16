@@ -1,0 +1,172 @@
+#containerPai {
+    display: flex;
+    background-color: #333;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    background-color: #f5f6fa;
+    color: #333;
+}
+
+#barraEsquerda {
+    background-color: rgb(93, 78, 228);
+    height: 1200px;
+    width: 2%;
+}
+
+#dadosEsquerda {
+    background-color: rgb(229, 248, 244);
+    padding: 20px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10%;
+}
+
+#infoPessoal {
+    background-color: rgb(229, 248, 244);
+    height: 100%;
+    width: 40%;
+
+}
+
+#textoFoto {
+    justify-items: center;
+    font-size: 1.5vw;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#textoFoto2 {
+    justify-items: center;
+    font-size: 1vw;
+    color: #555;
+    margin-top: -2em;
+    margin-bottom: 2em;
+}
+
+.fotoCurriculo {
+    margin-left: 35px;
+    margin-top: 25px;
+    display: center;
+    justify-items: center;
+    justify-content: center;
+    width: 75%;
+    height: 70%;
+    border-radius: 50%; 
+    object-fit: cover;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}   
+
+.icones{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    margin-top: 2%;
+}
+
+/*
+.zap{
+    width: 12%; 
+    height: 85%;
+    margin-top: 10px;
+}
+.email{
+    width: 12%;
+    height: 85%;
+    margin-top: 10px;
+}
+.linkedIn{
+    width: 12%;
+    height: 85%;
+    margin-top: 10px;
+}
+.github{
+    width: 12%;
+    height: 85%;
+    margin-top: 10px;
+}
+*/
+
+
+.icones p{
+    font-size: 0.9vw;
+}
+
+.icones img {
+width: 10%;
+
+}
+.textoGrande, .textoGrande2{
+    display: flex;
+    flex: 0;
+    font-size: 1.4vw;
+    font-weight: 900;   
+    margin-top: 30px;
+    margin-right: 80px;
+}
+
+.textosEmBaixo{
+    justify-items: center;
+    font-size: 1vw;
+    color: #555;
+    margin-bottom: 20px;
+    margin-left: -18%;
+}
+
+.idiomas_Habilidades{
+    width: 80%;
+    margin-right: 20%;
+}
+
+.idioma-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* empurra estrelas para a direita */
+    width: 100%;
+    gap: 8px;
+    margin: 6px 0;
+}
+
+.paises {
+    width: 18px;
+    height: auto;
+}
+
+.textosIdiomas {
+    flex: 1; /* ocupa o espaço do meio */
+    font-size: 1.1vw;
+    color: #555;
+    width: 70%;
+}
+
+.estrelas {
+    align-content:flex-end;
+    width:10vw;
+    height: auto;
+}
+
+.textoLado{
+    display: flex;
+    flex: 0;
+    font-size: 1.4vw;
+    font-weight: 900;   
+    margin-top: 30px;
+    margin-right: 80px;
+    margin-bottom: 2em;
+}
+
+.textos_pessoais{
+    justify-items: center;
+    font-size: 1vw;
+    color: #555;
+    margin-top: -1.5em;
+    margin-bottom: 2em;
+}
